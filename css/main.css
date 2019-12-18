@@ -1,0 +1,390 @@
+/* общие настройки */
+body {
+  background-color: #eededb;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Fira Sans', sans-serif; */
+  font-family: 'Geometria';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 23px;
+  color: #4d505b;
+
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+/* настройки сектора шапки */
+.logo__main {
+  margin-top: 10px;
+}
+
+.logo__main a {
+  font-size: 25px;
+  justify-content: center;
+}
+
+.logo__main a:hover {
+  text-decoration: none;
+  color: #dba391;
+}
+
+.logo__findir {
+  /* margin-bottom: 0px; */
+  margin-top: 15px;
+  /* margin-left: 20px; */
+  font-size: 25px;
+}
+
+#img {
+  -webkit-filter: drop-shadow(1px 5px 5px #4d505b);
+  filter: drop-shadow(1px 5px 5px #4d505b);
+}
+
+.logo__name {
+  color: #4d505b;
+  margin-left: 20px;
+  /* justify-content: center; */
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.person__contacts {
+  margin-top: 15px;
+  justify-content: flex-end;
+}
+
+.person__mail {
+  color: #4d505b;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.person__phone {
+  color: #4d505b;
+}
+
+.person__contacts a:hover {
+  color: #dba391;
+}
+
+.person__name {
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #4d505b;
+  line-height: 55px;
+}
+
+.person__definition {
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 28px;
+  color: #4d505b;
+}
+
+.person__links a {
+  color: #4d505b;
+  font-size: 30px;
+}
+
+.person__links a:hover {
+  color: #dba391;
+}
+
+.person__links {
+  justify-content: flex-end;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.person__btnlink {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.person__btn {
+  border-radius:30px;
+  color: #eededb;
+  font-size: 25px;
+  background-color: #4d505b;
+  font-family: 'Geometria';
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.person__btnlink a:hover {
+  color: #eededb;
+  background-color: #dba391;
+  border-color: #dba391;
+}
+
+/* сектор меню */
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.items{
+  justify-content: space-around;
+}
+
+.menu__main {
+  background-color: #dba391;
+  justify-content: space-around;
+  font-size: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu__item a {
+  color: #4d505b;
+}
+
+.menu__item a:hover {
+  text-decoration: none;
+  color: #eededb;
+}
+
+/* Текст главной страницы */
+.deviz{
+  background-color: #eededb;
+  font-family: 'Geometria';
+  font-weight: 300;
+  font-style: normal;
+  color: #4d505b;
+  font-size: 25px;
+}
+
+.main__deviz {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main__ask1{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.main__answ{
+/* line-height: 40px; */
+  margin-left: 40px;
+}
+
+.main__bottom {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/* /Текст главной страницы */
+
+.active a{
+  text-decoration: underline;
+  color: #eededb;
+}
+
+.active a:hover{
+  text-decoration: underline;
+}
+/* сектор с картинкой колесо */
+.svc__img {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.svc__imgself {
+
+}
+
+.svc__defenition {
+ margin-top: 10px;
+}
+
+/* Колонки информации */
+.info__head {
+  margin-top: 20px;
+}
+
+.info__li {
+  margin-left: 30px;
+}
+
+.info1__img {
+  margin-top: 10px;
+}
+
+.info2__img {
+  margin-top: 55px;
+}
+
+.info3__img {
+  margin-top: 60px;
+}
+
+.info2 {
+  margin-top: 50px;
+}
+
+.info3 {
+  margin-top: 50px;
+
+}
+
+/* Колонки со значками */
+.infoicon1 {
+  margin-top: 40px;
+}
+
+.infoicon__text {
+  font-size: 18px;
+  margin: 2px;
+}
+
+/* секция главного описания about_me */
+.about__main {
+  margin-top: 15px;
+}
+
+.company__logo {
+  margin-top: 5px;
+}
+
+.gen__dir {
+  margin: 0px;
+}
+
+.sound__main {
+  margin-top: 25px;
+}
+
+.sound__text {
+  margin-top: 15px;
+}
+
+.sound__lab {
+  margin-top: 10px;
+}
+
+.casle__img {
+  margin-top: 10px;
+}
+
+/* форма обратной связи */
+.form-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgba(251, 251, 251, 0.2); */
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-form {
+    box-sizing: border-box;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+    width: 100%;
+    max-width: 400px;
+    background: #eededb;
+    padding: 0 30px 30px;
+    border-radius: 2px;
+}
+
+.contact-form__title {
+    box-sizing: border-box;
+    margin: 0 -30px 30px;
+    padding: 15px 30px;
+    width: calc(100% + 60px);
+    line-height: 1.5;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: top left repeat,
+        #dba391;
+    color: #fff;
+}
+
+.contact-form__description {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-form__input-wrapper {
+    margin-bottom: 20px;
+}
+
+.contact-form__input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    background: #fbfbfb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form__error {
+    font-size: .875rem;
+}
+
+.contact-form__button {
+    background: #4d505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 240px;
+    margin: 30px auto 0;
+    border-radius: 5px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+    padding: 2px 0 0 0;
+}
+
+.contact-form__button:hover {
+    transition: .3s;
+    background: #dba391;
+}
+
+@media (max-width: 480px) {
+    .form-wrapper {
+        padding: 15px;
+    }
+    .contact-form {
+        padding: 0 15px 15px;
+    }
+    .contact-form__title {
+        margin: 0 -15px 30px;
+        padding: 15px 30px;
+        width: calc(100% + 30px);
+        font-size: 18px;
+    }
+}
