@@ -123,6 +123,10 @@ ul, li {
   border-color: #dba391;
 }
 
+.stalnaya{
+  margin-top: 15px;
+}
+
 /* сектор меню */
 
 .menu {
@@ -253,7 +257,34 @@ ul, li {
   margin: 2px;
 }
 
+/* отзывы клиентов */
+.otz{
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.otz__text{
+  font-weight: 300;
+  /* font-size: 30px; */
+
+}
 /* секция главного описания about_me */
+.abouttext{
+  background-color: #eededb;
+  font-family: 'Geometria';
+  font-weight: 300;
+  font-style: normal;
+  color: #4d505b;
+  font-size: 25px;
+}
+
+.devizraboty{
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
 .about__main {
   margin-top: 15px;
 }
@@ -280,8 +311,18 @@ ul, li {
 
 .casle__img {
   margin-top: 10px;
+  border-radius: 25px;
 }
 
+/* Карусель */
+.d-block{
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel{
+  margin-top: 20px;
+}
 /* форма обратной связи */
 .form-wrapper {
     box-sizing: border-box;
