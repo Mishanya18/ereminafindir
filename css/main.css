@@ -272,8 +272,18 @@ ul, li {
 .otz__text{
   font-weight: 300;
   /* font-size: 30px; */
-
 }
+
+/* Клиентам */
+.list__main {
+  list-style-image: none;
+  list-style-type: circle;
+}
+
+.firstrow {
+  margin-top: 30px;
+}
+
 /* секция главного описания about_me */
 .abouttext{
   background-color: #eededb;
@@ -282,6 +292,14 @@ ul, li {
   font-style: normal;
   color: #4d505b;
   font-size: 25px;
+}
+
+.dot {
+  font-weight: 800;
+}
+
+.opit {
+  font-weight: 400;
 }
 
 .devizraboty{
