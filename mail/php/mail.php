@@ -19,7 +19,7 @@
     $mail->SetFrom("ereminafindirsite@gmail.com");
     $mail->Subject = SUBJECT;
 	$mail->Body = "$name $tel $email";
-    $mail->AddAddress("mirytov@gmail.com");
+    $mail->AddAddress("eremina_w-n@mail.ru");
 
      if(!$mail->Send()) {
         //echo "Mailer Error: " . $mail->ErrorInfo;

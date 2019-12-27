@@ -43,7 +43,7 @@
 	const SENDER = 'ereminafindirsite@gmail.com';
 
 	// Почта на которую будет приходить письмо
-	const CATCHER = 'mirytov@gmail.com';
+	const CATCHER = 'eremina_w-n@mail.ru';
 
 	// Тема письма
 	const SUBJECT = 'Заявка с сайта';
