@@ -187,7 +187,6 @@ ul, li {
 }
 
 .main__answ{
-/* line-height: 40px; */
   margin-left: 40px;
 }
 
@@ -197,6 +196,14 @@ ul, li {
   font-weight: 400;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+.text__list {
+  font-weight: 300;
+}
+
+.zakon{
+  font-weight: 200;
 }
 /* /Текст главной страницы */
 
